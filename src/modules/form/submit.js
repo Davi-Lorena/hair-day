@@ -16,5 +16,5 @@ selectedDate.min = inputToday
 form.onsubmit = (event) => {
     // Previne o comportamento padrão de carregar a página com o envio do formulário
     event.preventDefault()
-    console.log("Enviado!")
+    
 }

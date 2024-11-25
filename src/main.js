@@ -10,3 +10,4 @@ import "./styles/schedule.css"
 
 // Importanto JS
 import "./modules/form/submit.js"
+import "./modules/page-load.js"
