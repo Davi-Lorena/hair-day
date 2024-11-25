@@ -1,6 +1,6 @@
 "use strict" 
 
-// Importando a configuração do dayjs 
+// Importando a configuração do dayjs para formatar a data e a hora no padrão pt-br
 import "./libs/dayjs.js"
 
 // Importando css
