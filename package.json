@@ -1,5 +1,9 @@
 {
 
+  "name": "hairday",
+  "description": "Aplicação Web de agendamento para corte de cabelo",
+  "author": "Davi Lorena",
+
 "scripts": {
   "server": "json-server --watch server.json --port 3333"
 },
