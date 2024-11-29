@@ -39,7 +39,7 @@ const hour = dayjs(schedule.when).hour()
 // Renderiza o agendamento na sessão
 if (hour <= 12) {
     periodMorning.appendChild(item)
-} else if (12 < hour < 18) {
+} else if (hour > 12 && hour < 18) {
     periodAfternoon.appendChild(item)
 } else if (hour >= 18) {
     periodNight.appendChild(item)

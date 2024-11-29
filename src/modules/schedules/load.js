@@ -13,7 +13,7 @@ const date = selectedDate.value
 const dailySchedules = await scheduleFetchByDay({ date })
 
 // Exibe os agendamentos 
-schedulesShow({ dailySchedules})
+schedulesShow({ dailySchedules })
     // Renderiza as horas disponíveis 
     hoursLoad({ date, dailySchedules })
 }
